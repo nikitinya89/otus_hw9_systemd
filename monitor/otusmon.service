@@ -1,0 +1,7 @@
+[Unit]
+Description=Log Monitroing Service
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/sysconfig/otus-mon-env
+ExecStart=/opt/otusmon.sh $WORD $LOG

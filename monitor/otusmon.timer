@@ -1,0 +1,9 @@
+[Unit]
+Description=timer for otusmon.Service
+
+[Timer]
+OnUnitActiveSec=30
+Unit=otusmon.service
+
+[Install]
+WantedBy=multi-user.target

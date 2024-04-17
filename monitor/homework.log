@@ -1,0 +1,13 @@
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1180] dhcp4 (eth0):   plen 24 (255.255.255.0)
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1180] dhcp4 (eth0):   gateway 10.0.2.2
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1181] dhcp4 (eth0):   lease time 86400
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1181] dhcp4 (eth0):   nameserver '10.0.2.3'
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1181] dhcp4 (eth0): state changed unknown -> bound
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1188] device (eth0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1194] device (eth0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  ALERT
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1196] device (eth0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1198] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1201] manager: NetworkManager state is now CONNECTED_SITE
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1202] policy: set 'System eth0' (eth0) as default for IPv4 routing and DNS
+Apr 17 09:01:23 localhost NetworkManager[404]: <info>  [1713344483.1475] device (eth0): Activation: successful, device activated.
